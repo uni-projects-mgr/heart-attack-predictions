@@ -2,6 +2,7 @@
  
 The created ML model will determine whether there is a high probability of a heart attack for a given sample or not.
 
+The RandomForestClassifier model will be used.
 
 ### Data
 
@@ -9,7 +10,7 @@ As a historical data, the ML model will use the following [dataset](https://www.
 
 That dataset describes patients dataset with predictions if the patient is vulnerable to heart attack or not.
 
-It contains 14 columns described below:
+All data are numerical and contains 14 columns described below:
 - age - patient's age
 - sex - patient's gender (0 or 1 - the dataset documentation does not specify which label corresponds to which gender)
 - cp - chest pain type (1 - Typical angina, 2 - Atypical angina, 3 - Non-anginal pain, 4 - Asymptomatic)
