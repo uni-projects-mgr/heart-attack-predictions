@@ -25,3 +25,7 @@ All data are numerical and contains 14 columns described below:
 - ca - number of major coronary arteries (0-3)
 - thall - indicates blood flow through the heart muscle (1 - normal flow, 2 - fixed defect, 3 - reversible defect)
 - output - a variable indicating predictions regarding heart attack (0 - lower chances, 1 - higher chances)
+
+### Docker run
+
+To create and run all containers: `docker-compose up -d`
